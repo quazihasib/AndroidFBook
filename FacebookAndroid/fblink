@@ -1,0 +1,8 @@
+generate hash keyp-
+keytool -exportcert -alias androiddebugkey -keystore "/home/hasib/.android/debug.keystore" | openssl sha1 -binary | openssl base64
+
+Enter keystore password:  android
+
+
+quick starts-https://developers.facebook.com/quickstarts/747552431965071/?platform=android#
+appid-https://developers.facebook.com/apps/747552431965071/
